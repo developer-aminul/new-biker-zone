@@ -10,5 +10,8 @@
 .user-2{
     height: 90px;
     width: 90px;
-    border-radius: 50px;
+    border-radius: 45px;
+}
+.image-size{
+    width: 200px;
 }

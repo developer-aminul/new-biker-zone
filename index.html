@@ -13,9 +13,9 @@
   <script src="https://kit.fontawesome.com/18e2a357ae.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-lg">
+<body>
   <!-- header -->
-  <header>
+  <header class="container-lg">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -110,9 +110,9 @@
     </div>
   </header>
   <!-- main section -->
-  <main>
+  <main class="container-lg">
     <!-- hot bikes section -->
-    <section class="text-strat text-md-center mt-5">
+    <section class=" container-lg text-strat text-md-center mt-5">
       <h1>Hot Bikes In This Year</h1>
       <p class="text-danger">Best bike collection</p>
       <hr class="w-25 mx-auto border-danger">
@@ -129,7 +129,7 @@
       </div>
     </section>
     <!-- new arrival section -->
-    <section class="bg-info bg-opacity-25 rounded py-5 px-3 mt-4">
+    <section class=" container-lg bg-info bg-opacity-25 rounded py-5 px-3 mt-4">
       <h1 class="text-center mt-4 pb-3">New Arrival</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -174,12 +174,12 @@
       </div>
     </section>
     <!-- happy clients section -->
-    <section class="mt-5 mb-5">
+    <section class=" container-lg mt-5">
 <h1 class="text-center py-5">Happy <span class="text-warning-emphasis">Clients</span></h1>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card text-center h-100">
-      <img src="images/others/user-1.png" class="card-img-top user-2 w-25 mx-auto mt-4" alt="...">
+      <img src="images/others/user-1.png" class="card-img-top user-2 mx-auto mt-4" alt="...">
       <div class="card-body">
         <p class="card-text">Slate helps you see how 
           many more days you need 
@@ -193,7 +193,7 @@
           <i class="fa-regular fa-star-half-stroke"></i>
         </p>
         <h4 class="user-name-color">Ahmadullah</h4>
-        <h5>Islam Scholar</h5>
+        <h5>Islamic Scholar</h5>
       </div>
     </div>
   </div>
@@ -219,7 +219,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="images/others/user-3.png" class="card-img-top w-25 mx-auto mt-4" alt="...">
+      <img src="images/others/user-3.png" class="card-img-top user-2 mx-auto mt-4" alt="...">
       <div class="card-body text-center">
         <p class="card-text">Slate helps you see how 
           many more days you need 
@@ -239,10 +239,86 @@
   </div>
 </div>
     </section>
-
+    <!-- FAQ section -->
+<section class="container-lg mt-5 py-5 bg-secondry-subtle rounded">
+  <h1 class="my-5 text-center">Frequently Asked <span class="text-warning-emphasis">Questions</span></h1>
+  <div class="row row-cols-1 row-cols-md-2 mt-5 g-4">
+    <div class="col text-center">
+      <img class="w-50" src="images/others/faq.png" alt="">
+    </div>
+    <div class="col">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   </main>
 
-
+<!-- Footer section -->
+<footer class="bg-dark py-5">
+  <section class="container-lg">
+    <div class="row px-5 d-md-flex justify-content-center align-items-center">
+      <div class="col-md-8"> 
+        <p>
+          <a href="#" class="text-decoration-none text-white">Download</a>
+          <a href="#" class="text-decoration-none text-white ps-5">License</a>
+        </p>
+       <div class="pt-3">
+        <div class="d-md-flex flex-sm-wrap gap-5 gy-3 fs-5">
+          <a href="#" class="text-decoration-none text-white pe-4">About</a>
+          <a href="#" class="text-decoration-none text-white pe-4">Features</a>
+          <a href="#" class="text-decoration-none text-white pe-4">Pricing</a>
+          <a href="#" class="text-decoration-none text-white pe-4">Careers</a>
+          <a href="#" class="text-decoration-none text-white pe-4">Help</a>
+          <a href="#" class="text-decoration-none text-white pe-4">Privacy Policy</a>
+        </div>
+        <p class="text-white mt-5"> &copy2023 bike. All rights reserved </p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <h1 class="text-white">Get the App</h1>
+        <div class="pt-3"><img src="images/others/ios.png" class="img-fluid image-size" alt=""></div>
+        <div class="pt-3"><img src="images/others/android.png" class="img-fluid image-size"  alt=""></div>
+      </div>
+    </div>
+  </section>
+</footer>
 
 
 
